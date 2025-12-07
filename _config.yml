@@ -1,24 +1,26 @@
 # Site settings
-title: LBX Blog
-SEOTitle: 蜡笔熊的博客 | LBX Blog
+title: ZhiyongXiao's Blog
+SEOTitle: 肖志勇的Blog | XZY Blog
 header-img: img/home-bg-2.jpg
-email: jinair1121@gmail.com
-description: "这里是 @LBX蜡笔熊 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "蜡笔熊, LBX蜡笔熊, LBX, 蜡笔熊的博客, Lbx Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
-url: "https://roselifetotj.github.io/" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+email: skrhrba@Outlook.com
+description: "这里是 @ZhiyongXiao 的个人博客，与你一起发现更大的世界"
+keyword: 
+url: "https://zhiyong-xiao.github.io/" # your host, for absolute URL
+baseurl: ""  # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
-RSS: false
-weibo_username: 那个踏浪来的仙女是我的
-zhihu_username: Roselife
-github_username: labixiong
+# RSS: false
+weibo_username: ZhiyongXiao_pro
+weread_usename: 桂影扶疏pro
+Email_username: skrhrba@outlook.com
+github_username: Zhiyong-Xiao
+notion: https://deluxe-stick-0be.notion.site/17433e21324e80429e9cfb69596bd4e7?pvs=4
 # twitter_username: huxpro
 # facebook_username:  huxpro
-# linkedin_username:  firstname-lastname-idxxxx
+# linkedin_username:  first name-last name-id xxxx
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -35,7 +37,7 @@ exclude:
     "README.zh.md",
   ]
 anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+# If you have time zone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN
 
 # Gems
@@ -45,8 +47,8 @@ anchorjs: true # if you want to customize anchor. check out line:181 of `post.ht
 plugins: [jekyll-paginate]
 
 # Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# replace red carpet to kramdown,
+# although red carpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
@@ -70,12 +72,12 @@ ba_track_id: bade937f1e77acfeb4fa77b726e60a98
 
 # Google Analytics
 # ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-# ga_domain: huangxuan.me
+# ga_domain: huang xuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "我爱这生活。"
-sidebar-avatar: img/avatar-lbx.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "我爱自己故我在！"
+sidebar-avatar: img/touxiang.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -85,13 +87,13 @@ featured-condition-size: 1 # A tag will be featured if the size of it is more th
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-# MathJax rendering for layout:page (e.g. post preview)
+# MathJax rendering for layout: page (e.g. post preview)
 page-mathjax: false
 
 # Friends
 # friends:
 #   [
-#     { title: "乱序（Midare）", href: "http://mida.re/" },
+#     { title: "notion·桂影扶疏", href: "https://www.notion.so/17433e21324e801b801cdcfc60074806?v=17433e21324e80cd84a5000cf812264e&pvs=4" },
 #     { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
 #     { title: "Kun Qian", href: "http://kunq.me" },
 #     { title: "Sherry Woo", href: "https://sherrywoo.me/" },
