@@ -28,6 +28,36 @@
     </a>
   </li>
   {% endif %}
+  {% if site.weixin_username %}
+  <li>
+    <a href="https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0MTQzNTQ1NQ==&action=getalbum&album_id=3591290011972091906#wechat_redirect">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse">W</i>
+      </span>
+    </a>
+  </li>
+  {% endif %}
+  {% if site.juejin_username %}
+  <li>
+    <a href="https://juejin.cn/user/3334169355356045">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse">J</i>
+      </span>
+    </a>
+  </li>
+  {% endif %}
+  {% if site.csdn_username %}
+  <li>
+    <a href="https://blog.csdn.net/m0_47553675?type=blog">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse">C</i>
+      </span>
+    </a>
+  </li>
+  {% endif %}
   {% if site.zhihu_username %}
   <li>
     <a target="_blank" href="https://www.zhihu.com/people/{{ site.zhihu_username }}">
