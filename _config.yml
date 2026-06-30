@@ -79,6 +79,7 @@ ba_track_id: bade937f1e77acfeb4fa77b726e60a98
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "我爱这生活。"
 sidebar-avatar: img/avatar-lbx.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+weixin-img: img/weixinpublic.jpg
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
