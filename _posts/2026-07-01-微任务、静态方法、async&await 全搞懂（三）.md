@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      实现一个能跑的迷你版Promise（一）
-subtitle:   手写Promise第一篇，实现一个能跑的迷你版Promise（一）
-date:       2026-06-29
+title:      微任务、静态方法、async/await 全搞懂（三）
+subtitle:   手写Promise第三篇，微任务、静态方法、async/await 全搞懂（三）
+date:       2026-07-01
 author:     LBX
 header-img: img/bg-little-universe.jpg
 catalog: true
